@@ -134,6 +134,13 @@ for i in range(0, n, 2):
 
 The following code has $\mathcal{O}(n^2)$ complexity, because the code inside the inner loop is exectued $1 + 2 + \dots + n = \frac{n(n + 1)}{2} = \frac{n^2 + n}{2}$.
 
+```Python
+
+for i in range(1, n + 1):
+    for j in range(i):
+        ...
+```
+
 If an algorithm consists of consecutives phases, the total time complexity is the largest of all single phases. The reason is that the slowst is the bottleneck of the algorithm. For example, the following code consists of 3 phases with complexities $\mathcal{O}(n)$, $\mathcal{O}(n^2)$ and $\mathcal{O}(n)$, Tgysm tge total complexity is $\mathcal{O}(n^2)$.
 ```Python
 for i in range(n):
