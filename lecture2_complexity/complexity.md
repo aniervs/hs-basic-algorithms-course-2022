@@ -168,7 +168,7 @@ Run the code `linear_search_vs_binary_search.py`.
 - $\mathcal{O}(\sqrt n)$: An example is trying to find all the divisors of $n$. More on this in the lecture about number theory algorithms.
 - $\mathcal{O}(n)$: Just a linear algorithm. Usually we take this time to read the data.
 - $\mathcal{O}(n \cdot \log n)$: Some sorting algorithms have this complexity. Also, some data structures have this complexity in order to be built.
-- $\mathcal{O}(n^2)$: It usually contains 2 nested loops. It's called *quadratic* complexity. One example is to iterate though all triples of the input elements.
+- $\mathcal{O}(n^2)$: It usually contains 2 nested loops. It's called *quadratic* complexity. One example is to iterate though all pairs of the input elements.
 - $\mathcal{O}(n^3)$: It usually contains 3 nested loops. It's called *cubic* complexity. One example is to iterate through all triplets of the input elements.
 - $\mathcal{O}(2^n)$: This often indicates that the algorithm iterates through all subsets of the input elements. 
 - $\mathcal{O}(n!)$: This often indicates that the algorithm iterates through all permutations of the input elements.
